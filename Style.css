@@ -1,0 +1,73 @@
+.name{}
+NameTag{}
+#idName{}
+.colors{color:red; background:red;}
+.collors{color:#000000; background:#ff0000;}
+.col{background-color:black;}
+.img{
+background-image: url("http:/www.name.com/image.png");
+background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}
+.b{withe:100%; height:70%;}
+.b1{white:15px; height:20px;}
+Button{padding:13px 25px; 
+border: 1px solid #4CAF50; 
+padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+font-size: 12px;
+border-radius: 2px;
+
+}
+Button:hover{
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+opacity: 0.6;
+  cursor: not-allowed;
+float: left;
+display: block;
+display: none;
+text-decoration: none;
+display: inline-block;
+}
+Button.action{
+Margin:0 4px;
+}
+Button:hover:not(.active){
+}
+.pagination a:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.button>btn{}
+.button, btn {}
+P{
+text-align: center;
+ background-color:rgb(183, 152, 238); 
+color:hsl(297, 100%, 50%);
+}
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+margin-top
+margin-right
+margin-bottom
+margin-left
+
+.p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
